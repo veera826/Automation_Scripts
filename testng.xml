@@ -1,0 +1,48 @@
+
+<suite name="Suite">
+
+
+ <parameter name="browser" value="chrome"/>
+ 
+ <parameter name="url" value="https://www.makemytrip.com/"/>
+
+  <test  name="Test">
+  
+ 
+
+    <classes>
+      <class name="com.qa.ParamTest">
+      <methods>
+      
+      <include name="LaunchApp"/>
+      
+      
+      </methods>
+      
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Test1" >
+    <classes>
+      <class name="com.qa.ParamTest">
+      <methods>
+      
+  
+      <include name="LaunchApp"/>
+      <include name="Title"/>
+      
+      
+      </methods>
+      
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+</suite> <!-- Suite -->
+

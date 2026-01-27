@@ -15,6 +15,8 @@ public class Reverse {
 		for(int i=s2.length()-1;i>=0;i--) {
 				
 		s3=s3+s2.charAt(i);
+		
+		
 				
 		}
 			

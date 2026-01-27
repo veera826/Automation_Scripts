@@ -10,7 +10,8 @@ public class Excelmport {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-    	File f=new File("C:\\Users\\deviv\\eclipse-workspace\\Selenium\\src\\test\\resources\\TestData.xlsx");
+		
+		File f=new File("C:\\Users\\deviv\\eclipse-workspace\\Selenium\\src\\test\\resources\\TestData.xlsx");
     	
     	FileInputStream fis=new FileInputStream(f);		
 		
@@ -31,11 +32,7 @@ public class Excelmport {
 			String value=currentrow.getCell(j).toString();
 			
 			System.out.print("!!"+value);
-			
-			System.out.println("veera");
-			
-			
-				}
+			}
 		   
 		   System.out.println();
 		   }
