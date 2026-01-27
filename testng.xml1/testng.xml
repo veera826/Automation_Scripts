@@ -1,0 +1,9 @@
+
+<suite name="Suite"  parallel="methods" thread-count="2">
+  <test name="Test">
+    <classes>
+      <class name="com.qa.GoogleTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

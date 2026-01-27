@@ -32,12 +32,7 @@ public class Excelmport {
 			String value=currentrow.getCell(j).toString();
 			
 			System.out.print("!!"+value);
-			
-			System.out.println("veera123");
-			
-			
-			
-				}
+			}
 		   
 		   System.out.println();
 		   }
