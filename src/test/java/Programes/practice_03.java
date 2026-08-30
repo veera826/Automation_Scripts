@@ -6,7 +6,7 @@ public class practice_03  {
 	public static void main(String[] args) {
 		
 		
-	String s= "my name is veera";
+	String s= "my name is veeraa";
 	
 	String[] s1= s.split(" ");
 	
